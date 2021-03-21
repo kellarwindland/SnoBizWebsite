@@ -1,0 +1,17 @@
+<div class="container">
+  <form (ngSubmit)="processForm()">
+    <div class="form-group">
+      <label for="name">Your Name</label>
+      <input type="name" name="name" [(ngModel)]="name" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Enter Name">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email Address</label>
+      <input type="email" name="email" [(ngModel)]="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email">
+    </div>
+    <div class="form-group">
+      <label for="message">What's on your mind?</label>
+      <textarea class="form-control" name="message" [(ngModel)]="message" id="message" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>

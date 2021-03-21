@@ -1,0 +1,62 @@
+.navbar2 {
+  overflow: hidden;
+}
+
+.navbar2 a {
+  float: left;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  text-decoration: none;
+  overflow: hidden;
+  padding: 1.5rem;
+  width: 25%;
+  white-space: nowrap;
+}
+
+@media (max-width: 710px) {
+  .navbar2 a {
+    font-size: 11px;
+  }
+}
+
+.navbar2 a.red:hover {
+  background-color: #e05753;
+}
+
+.navbar2 a.orange:hover {
+  background-color: #e99869;
+}
+
+.navbar2 a.yellow:hover {
+  background-color: #fadf75;
+}
+
+.navbar2 a.green:hover {
+  background-color: #b4dd78;
+}
+
+.navbar2 a.blue:hover {
+  background-color: #6875d8;
+}
+
+.navbar2 .red {
+  background-color: #e6261f;
+}
+
+.navbar2 .orange {
+  background-color: #eb7532;
+}
+
+.navbar2 .yellow {
+  background-color: #f7d038;
+}
+
+.navbar2 .green {
+  background-color: #a3e048;
+}
+
+.navbar2 .blue {
+  background-color: #4355db;
+}

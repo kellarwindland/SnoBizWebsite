@@ -1,0 +1,43 @@
+.carousel{
+  background: #2f4357;
+  margin-top: 20px;
+}
+.carousel-item{
+  text-align: center;
+  min-height: 280px;
+}
+
+.link {
+  font-size: large;
+}
+
+.card-group{
+  margin-bottom: 1.5rem;
+}
+
+
+@media (min-width: 75em) {
+  .card-group {
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+      column-count: 2;
+  }
+}
+
+
+
+
+.deck {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+  justify-content: space-between;
+}
+
+.card-group > .card {
+  margin: 0 0 2.3rem;
+}
+
+.deck > .card {
+  margin: 0 0 2.3rem;
+}

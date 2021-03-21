@@ -1,0 +1,239 @@
+.deck {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  justify-content: space-between;
+}
+
+.card-body{
+  padding: 1rem;
+}
+
+.card-group > .card {
+  margin: 0 0 2.3rem;
+}
+
+.deck > .card-flip {
+  margin: 0 0 2.3rem;
+}
+
+.card-flip {
+  perspective: 1000px;
+  &:hover .flip,
+  &.hover .flip {
+    transform: rotateY(180deg);
+  }
+  width: 20%;
+  height: 5rem;
+}
+
+.front,
+.back {
+  width: 100%;
+  height: 4.5rem;
+}
+
+.back > .card {
+  margin-bottom: 1rem;
+}
+
+.flip {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.front,
+.back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.front {
+  z-index: 2;
+  transform: rotateY(0deg);
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.table-dark td, .table-dark th, .table-dark thead th{
+  border-color: white;
+}
+
+table, tr, th, td {
+  font-weight: bolder;
+  color: white;
+}
+
+.card-img-top{
+  width: auto;
+  height: 30vh;
+  object-fit: cover;
+  background:  #4355db;
+}
+
+.btn{
+  font-weight: bolder;
+  color: white;
+  border-color: #4355db;
+  background: #4355db;
+}
+
+#card:nth-child(5n + 1){
+  .card {
+    background-color: #e6261f;
+  }
+}
+
+#card:nth-child(5n + 2) {
+  .card {
+    background-color: #eb7532;
+  }
+}
+
+#card:nth-child(5n + 3) {
+  .card {
+    background-color: #f7d038;
+  }
+}
+
+#card:nth-child(5n + 4) {
+  .card {
+    background-color: #a3e048;
+  }
+}
+
+#card:nth-child(5n + 5) {
+  .card {
+    background-color: #4355db;
+  }
+}
+
+tr:nth-child(even) {
+  background-color: #4355db;
+}
+
+tr:nth-child(odd) {
+  background-color: #4355db;
+}
+
+thead tr{
+  background-color: #4355db;
+}
+
+.picker{
+  margin: auto;
+  padding: 3rem;
+}
+
+.picker-button{
+  padding: 1rem;
+}
+
+.scroll{
+  float: right;
+}
+
+#to-top {
+  position:fixed;
+  bottom: 6rem;
+  right: 6rem;
+  width: 6rem;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+}
+
+.left-btn{
+  margin-right: .5rem;
+}
+
+.right-btn{
+  margin-left: .5rem;
+}
+
+@media (max-width: 576px) {
+  .deck > .card-flip {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+  }
+
+  .picker{
+    display: block;
+  }
+
+  .left-btn{
+    -ms-flex: 0 0 48.7%;
+    flex: 0 0 48.7%;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .right-btn{
+    -ms-flex: 0 0 48.7%;
+    flex: 0 0 48.7%;
+    margin: 0;
+  }
+
+  #to-top {
+    bottom: 1rem;
+    right: 1rem;
+    width: 6rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .deck > .card-flip {
+    -ms-flex: 0 0 48.7%;
+    flex: 0 0 48.7%;
+  }
+
+  .left-btn{
+    -ms-flex: 0 0 48.7%;
+    flex: 0 0 48.7%;
+  }
+  
+  .right-btn{
+    -ms-flex: 0 0 48.7%;
+    flex: 0 0 48.7%;
+  }
+
+  #to-top {
+    bottom: 2rem;
+    right: 2rem;
+    width: 6rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .deck > .card-flip {
+    -ms-flex: 0 0 32%;
+    flex: 0 0 32%;
+  }
+
+  #to-top {
+    bottom: 2rem;
+    right: 2rem;
+    width: 6rem;
+  }
+}
+
+@media (min-width: 992px)
+{
+  .deck > .card-flip {
+    -ms-flex: 0 0 24%;
+    flex: 0 0 24%;
+  }
+
+  #to-top {
+    bottom: 3rem;
+    right: 3rem;
+    width: 6rem;
+  }
+}
