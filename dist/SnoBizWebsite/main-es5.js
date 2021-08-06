@@ -962,7 +962,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "p", 7);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "11 am - 8 pm");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "3 pm - 8 pm");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -986,7 +986,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "p", 7);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, "11 am - 8 pm");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, "3 pm - 8 pm");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1010,7 +1010,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "p", 7);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, "11 am - 8 pm");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, "3 pm - 8 pm");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1034,7 +1034,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "p", 7);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](53, "11 am - 8 pm");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](53, "3 pm - 8 pm");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1058,7 +1058,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "p", 7);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, "11 am - 8 pm");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, "3 pm - 8 pm");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1082,7 +1082,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "p", 7);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, "11 am - 8 pm");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, "12 pm - 8 pm");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1106,7 +1106,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](73, "p", 7);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](74, "12 am - 8 pm");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](74, "12 pm - 8 pm");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
